@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+﻿import { useEffect, useRef } from 'react';
 import { DragDropContext, Draggable, Droppable } from '@hello-pangea/dnd';
 import confetti from 'canvas-confetti';
 import HabitItem from './HabitItem';
@@ -52,10 +52,10 @@ export default function HabitList({
     return (
       <EmptyShell>
         <div className="animate-bounce text-7xl">🌱</div>
-        <h3 className="font-display mx-auto mb-4 bg-gradient-to-r from-yellow-300 via-pink-300 to-purple-300 bg-clip-text text-3xl font-extrabold text-transparent md:text-4xl">
+        <h3 className="font-display mx-auto mb-4 bg-gradient-to-r from-yellow-200 via-pink-200 to-purple-200 bg-clip-text text-3xl font-extrabold text-transparent md:text-4xl">
           Всё начинается с первого шага!
         </h3>
-        <p className="mx-auto mb-6 max-w-md text-lg text-purple-200/80">
+        <p className="mx-auto mb-6 max-w-md text-lg text-purple-50">
           Добавь свою первую привычку и начни путь к лучшей версии себя прямо сейчас.
         </p>
         <button
@@ -74,10 +74,10 @@ export default function HabitList({
     return (
       <EmptyShell>
         <div className="animate-bounce text-7xl">🔍</div>
-        <h3 className="font-display mx-auto mb-4 bg-gradient-to-r from-yellow-300 via-pink-300 to-purple-300 bg-clip-text text-3xl font-extrabold text-transparent md:text-4xl">
+        <h3 className="font-display mx-auto mb-4 bg-gradient-to-r from-yellow-200 via-pink-200 to-purple-200 bg-clip-text text-3xl font-extrabold text-transparent md:text-4xl">
           Ничего не найдено
         </h3>
-        <p className="mx-auto mb-6 max-w-md text-lg text-purple-200/80">
+        <p className="mx-auto mb-6 max-w-md text-lg text-purple-50">
           По такому фильтру или поиску привычек нет — попробуй сбросить настройки, они никуда не делись 💜
         </p>
         <button
@@ -97,12 +97,12 @@ export default function HabitList({
     return (
       <EmptyShell>
         <div className="animate-bounce text-7xl">{m.emoji}</div>
-        <h3 className="font-display mx-auto mb-4 bg-gradient-to-r from-yellow-300 via-pink-300 to-purple-300 bg-clip-text text-3xl font-extrabold text-transparent md:text-4xl">
+        <h3 className="font-display mx-auto mb-4 bg-gradient-to-r from-yellow-200 via-pink-200 to-purple-200 bg-clip-text text-3xl font-extrabold text-transparent md:text-4xl">
           {m.title}
         </h3>
-        <p className="mx-auto mb-4 max-w-md text-lg text-purple-200/80">{m.text}</p>
+        <p className="mx-auto mb-4 max-w-md text-lg text-purple-50">{m.text}</p>
         <div className="mx-auto mt-2 max-w-sm">
-          <div className="mb-2 flex justify-between text-sm text-purple-300">
+          <div className="mb-2 flex justify-between text-sm text-purple-100">
             <span>Прогресс дня</span>
             <span className="font-bold">
               {completedToday} из {habits.length}
