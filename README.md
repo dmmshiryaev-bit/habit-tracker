@@ -84,7 +84,7 @@
 
 ## 📸 Скриншоты
 
-![Light Theme]/img/светлая.jpg)
+![Light Theme](/img/светлая.jpg)
 ![Dark Theme](./screenshots/dark-theme.png)
 ![Calendar](./screenshots/calendar.png)
 
