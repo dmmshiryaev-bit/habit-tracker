@@ -1,42 +1,22 @@
 <div align="center">
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%">
-  <defs>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="5" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
-    <style>
-      .neon-text {
-        font-family: 'Arial Black', sans-serif;
-        font-size: 64px;
-        font-weight: 900;
-        text-anchor: middle;
-        dominant-baseline: middle;
-        letter-spacing: 4px;
-        filter: url(#glow);
-      }
-    </style>
-  </defs>
-  
-  <text x="50%" y="50%" class="neon-text">
-    ⚡ HABIT TRACKER ⚡
-    <animate attributeName="fill" 
-             values="#ff00de; #00ffff; #ff00de" 
-             dur="3s" 
-             repeatCount="indefinite" />
-    <animate attributeName="filter" 
-             values="url(#glow); none; url(#glow)" 
-             dur="3s" 
-             repeatCount="indefinite" />
-  </text>
-</svg>
+# <span style="background: linear-gradient(90deg, #ff00de, #00ffff, #ff00de); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; animation: gradient 3s ease infinite;">⚡ HABIT TRACKER ⚡</span>
 
-<br>
+<style>
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+</style>
 
 ![React](https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react)
 ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-3.x-cyan?style=for-the-badge&logo=tailwind-css)
 ![Vite](https://img.shields.io/badge/Vite-5-purple?style=for-the-badge&logo=vite)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+</div>
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
