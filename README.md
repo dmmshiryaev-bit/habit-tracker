@@ -92,7 +92,7 @@
 
 ## 🌐 Демо
 
-**Live Demo:** [ваш-username.github.io/habit-tracker](https://ваш-username.github.io/habit-tracker)
+**Live Demo:**  https://dmmshiryaev-bit.github.io/habit-tracker
 
 ---
 
