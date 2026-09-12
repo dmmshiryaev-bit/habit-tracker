@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 100" width="700" height="100">
+  <defs>
+    <style>
+      @keyframes appear {
+        from { opacity: 0; transform: translateY(8px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      tspan { 
+        opacity: 0; 
+        animation: appear 0.4s ease forwards; 
+        font-family: 'Segoe UI', Arial, sans-serif; 
+        font-weight: 700; 
+      }
+      .title { font-size: 46px; font-weight: 900; letter-spacing: 2px; }
+      .subtitle { font-size: 22px; font-weight: 600; letter-spacing: 1px; }
+    </style>
+  </defs>
+  
+  <!-- Строка 1: HABIT TRACKER -->
+  <text y="45" text-anchor="middle" class="title">
+    <tspan style="fill:#ff00de; animation-delay:0.0s">H</tspan>
+    <tspan style="fill:#ff14d4; animation-delay:0.05s">A</tspan>
+    <tspan style="fill:#ff28ca; animation-delay:0.1s">B</tspan>
+    <tspan style="fill:#ff3cc0; animation-delay:0.15s">I</tspan>
+    <tspan style="fill:#ff50b6; animation-delay:0.2s">T</tspan>
+    <tspan style="fill:#ff64ac; animation-delay:0.25s"> </tspan>
+    <tspan style="fill:#ff78a2; animation-delay:0.3s">T</tspan>
+    <tspan style="fill:#ff8c98; animation-delay:0.35s">R</tspan>
+    <tspan style="fill:#ffa08e; animation-delay:0.4s">A</tspan>
+    <tspan style="fill:#ffb484; animation-delay:0.45s">C</tspan>
+    <tspan style="fill:#ffc87a; animation-delay:0.5s">K</tspan>
+    <tspan style="fill:#ffdc70; animation-delay:0.55s">E</tspan>
+    <tspan style="fill:#fff066; animation-delay:0.6s">R</tspan>
+  </text>
+
+  <!-- Строка 2: Отслеживай • Достигай • Побеждай -->
+  <text y="80" text-anchor="middle" class="subtitle">
+    <tspan style="fill:#00ffff; animation-delay:0.8s">О</tspan>
+    <tspan style="fill:#00f0f5; animation-delay:0.85s">т</tspan>
+    <tspan style="fill:#00e1eb; animation-delay:0.9s">с</tspan>
+    <tspan style="fill:#00d2e1; animation-delay:0.95s">л</tspan>
+    <tspan style="fill:#00c3d7; animation-delay:1.0s">е</tspan>
+    <tspan style="fill:#00b4cd; animation-delay:1.05s">ж</tspan>
+    <tspan style="fill:#00a5c3; animation-delay:1.1s">и</tspan>
+    <tspan style="fill:#0096b9; animation-delay:1.15s">в</tspan>
+    <tspan style="fill:#0087af; animation-delay:1.2s">а</tspan>
+    <tspan style="fill:#0078a5; animation-delay:1.25s">й</tspan>
+    <tspan style="fill:#00699b; animation-delay:1.3s"> </tspan>
+    <tspan style="fill:#00699b; animation-delay:1.35s">•</tspan>
+    <tspan style="fill:#00699b; animation-delay:1.4s"> </tspan>
+    <tspan style="fill:#005a91; animation-delay:1.45s">Д</tspan>
+    <tspan style="fill:#004b87; animation-delay:1.5s">о</tspan>
+    <tspan style="fill:#003c7d; animation-delay:1.55s">с</tspan>
+    <tspan style="fill:#002d73; animation-delay:1.6s">т</tspan>
+    <tspan style="fill:#001e69; animation-delay:1.65s">и</tspan>
+    <tspan style="fill:#000f5f; animation-delay:1.7s">г</tspan>
+    <tspan style="fill:#050055; animation-delay:1.75s">а</tspan>
+    <tspan style="fill:#140050; animation-delay:1.8s">й</tspan>
+    <tspan style="fill:#23004b; animation-delay:1.85s"> </tspan>
+    <tspan style="fill:#23004b; animation-delay:1.9s">•</tspan>
+    <tspan style="fill:#23004b; animation-delay:1.95s"> </tspan>
+    <tspan style="fill:#320046; animation-delay:2.0s">П</tspan>
+    <tspan style="fill:#410041; animation-delay:2.05s">о</tspan>
+    <tspan style="fill:#50003c; animation-delay:2.1s">б</tspan>
+    <tspan style="fill:#5f0037; animation-delay:2.15s">е</tspan>
+    <tspan style="fill:#6e0032; animation-delay:2.2s">ж</tspan>
+    <tspan style="fill:#7d002d; animation-delay:2.25s">д</tspan>
+    <tspan style="fill:#8c0028; animation-delay:2.3s">а</tspan>
+    <tspan style="fill:#9b0023; animation-delay:2.35s">й</tspan>
+  </text>
+</svg>
