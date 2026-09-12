@@ -1,19 +1,14 @@
-<div align="center">
+<p align="center">
+  <img src="header.svg" alt="Habit Tracker Animated Header" />
+</p>
 
-# <span style="background: linear-gradient(90deg, #ff00de, #00ffff, #ff00de); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; animation: gradient 3s ease infinite;">⚡ HABIT TRACKER ⚡</span>
-
-<style>
-@keyframes gradient {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-</style>
+---
 
 ![React](https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react)
 ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-3.x-cyan?style=for-the-badge&logo=tailwind-css)
 ![Vite](https://img.shields.io/badge/Vite-5-purple?style=for-the-badge&logo=vite)
 
+---
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 </div>
