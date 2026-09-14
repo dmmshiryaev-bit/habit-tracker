@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="header.svg" alt="Habit Tracker Animated Header" />
+  <img src="header.svg?v=2" alt="Habit Tracker Animated Header" />
 </p>
 
 ---
